@@ -1,0 +1,8 @@
+# Force git to treat jar files as binary to avoid line-ending corruption
+*.jar binary
+
+# Ensure gradlew has LF line endings for unix-based environments
+gradlew text eol=lf
+
+# Ensure gradlew.bat has CRLF line endings for Windows environments
+gradlew.bat text eol=crlf
